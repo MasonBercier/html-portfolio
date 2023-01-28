@@ -1,0 +1,156 @@
+body{
+    background-image: url(https://mcdn.wallpapersafari.com/medium/84/22/Jz6bAs.gif);
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+nav li{
+    display: flex;
+    display: inline;
+    margin: 40px;
+}
+
+nav ul{ /*links on top of*/
+    background-color: gray;
+    margin: 5px;
+    list-style-type:none; /*removes bullets from bullet list*/
+    width:100%;
+    padding:20px; /*increases size between this are and next*/
+}
+
+nav{
+    display: block;
+}
+
+nav a{  /*attaches to links in nav bar*/ 
+    color:lightgreen;
+    text-decoration:none;
+}    
+nav a:hover{
+    color:white;
+}
+
+/*general class for lots of items, ID for 1 */
+.hero-image{
+    padding-top: 15px;
+    padding-bottom:15px;
+}
+
+#profile-image{
+    zoom: 80%;
+}
+.hero-text{
+    color:white;
+    text-align:center;
+    padding-top: 25px;
+}
+/* # is for ID*/
+#main{
+    width:800px;
+    float:left;
+    padding-left:20px;
+    padding-top:20px;
+    height:100%;
+}
+#side{
+    width: 800px;
+    float:right;
+    padding:20px;
+    height:100%;
+
+}
+
+#profile-image{
+    width:300px;
+    border-radius:50%;
+    border:5px solid darkslategray;
+}
+
+.profile-details{
+    text-align:center;
+    list-style-type:none;
+}
+.side-articles ul{
+    list-style-type:none;
+    text-align: center;
+    padding-right: 40px;
+}
+
+.side-articels, .main-articles{
+    padding: 10px;
+    margin-bottom: 10px
+}
+
+.side-articles{
+    background-color: gray;
+    text-align: center;
+    color:lightgreen;
+
+}
+
+.main-articles{
+    background-color: gray;
+    padding-bottom:10px;
+    color:lightgreen;
+}
+
+/*input fields*/
+form{
+    margin-top: 20px;;
+}
+textarea,input{
+    background-color: lightgray;
+    border-radius: 5px;
+    padding:5px;
+    margin:5px;
+}
+
+
+footer{
+    bottom:0px;
+    width:100%;
+    background-color: lightgreen;
+    height:5vh; /*5 % of view hight*/
+    margin-top: 0px;;
+}
+footer div{
+    text-align: center;
+    color:white;
+}
+main{
+    overflow: auto;
+}
+
+footer hr{
+    margin-top: 0px;
+    height:12px;
+    border:0px;
+    box-shadow: inset 0 12px 12px -12px white;
+}
+#coding a{
+    padding-top: 1px;
+    padding-bottom:1px;
+    color:lightgreen;
+    text-align: center;
+    text-decoration:none;
+}
+
+.links{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    text-align: center;
+}
+
+#showdown{
+    padding-left: 10px;
+}
+
+#manga{
+    width: 1px;
+    padding-left: 20px;
+}
+
+#smash{
+    padding-left: 10px;
+}
